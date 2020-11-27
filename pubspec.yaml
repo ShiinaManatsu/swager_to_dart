@@ -1,0 +1,38 @@
+name: swager_to_dart
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.12.0+2
+  darq: ^0.4.0+1 #LinQ like operators
+  dart_style: "^1.0.10"
+  json_ast: "^1.0.5"
+  shared_preferences: ">=0.5.10 <2.0.0"
+  rxdart: ^0.24.1
+
+  # Windows usage
+  file_chooser:
+    git:
+      url: git://github.com/google/flutter-desktop-embedding.git
+      path: plugins/file_chooser
+
+  json_to_dart:
+    git:
+      url: git://github.com/javiercbk/json_to_dart.git
+
+  cupertino_icons: ^0.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true

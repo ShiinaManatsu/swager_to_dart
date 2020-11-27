@@ -1,0 +1,1 @@
+{"template":"/// $Summary$\r\nstatic Future<$ReturnType$> $GeneratedApiName$ ($ApiParameters$) async =>\r\n   await httpPost<$ReturnType$>(\"$ApiUrl$\", $ApiParametersMap$ ,converter: (data)=> $ReturnType$.fromJson(data));\r\n\r\n","url":"http://114.215.186.123:8081/api/v2/api-docs","savePath":"D:\\Repos\\paibei\\lib\\src\\swager"}
